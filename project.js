@@ -10,8 +10,9 @@ Currently a CS tutor for PSU, have been a program grader for CS162 under the dir
 and aslo currently in my senior capstone project working with a local company to create
 a working database application`;
 picdiv.style.fontSize = '20px';
-picdiv.style.background ='rgb(34, 205, 202)';
-pic.style.border = 'thick solid blue';
+picdiv.style.background =' rgb(170, 146, 40)';
+picdiv.style.border = 'thick solid rgb(176, 216, 228)';
+pic.style.border = 'thick dotted blue';
 picdiv.style.paddingTop = '15px';
 div1.style.textAlign = 'center';
 div1.style.paddingTop = '15px';
@@ -22,6 +23,10 @@ pic.alt = 'picture of me';
 pic.src ='duffy.jpg';
 pic.style.height = '250px';
 div3.style.paddingTop = '15px';
+div3.style.paddingLeft ='15px';
+div3.style.paddingRight ='15px';
+div3.style.paddingBottom ='15px';
+div1.style.borderBottom = 'thick ridge red';
 div1.append(pic);
 div3.append(picdiv);
 div1.append(div3);
