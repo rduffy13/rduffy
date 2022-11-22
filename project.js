@@ -11,7 +11,8 @@ and aslo currently in my senior capstone project working with a local company to
 a working database application`;
 picdiv.style.fontSize = '20px';
 pic.style.borderRadius = '25px';
-picdiv.style.background ='rgb(235, 171, 11)';
+picdiv.style.color = 'white';
+picdiv.style.background = 'rgb(3, 19, 53)';
 picdiv.style.border = 'thick solid rgb(176, 216, 228)';
 pic.style.border = 'thick solid white';
 picdiv.style.paddingTop = '15px';
@@ -38,7 +39,7 @@ divPrev.style.border = 'thick ridge red';
 app2.append(divPrev);
 let cont = document.querySelector('#gridResume');
 let array = ["NOTABLE CLASSES TAKEN:","LANGUAGE KNOWLEDGE:", "WORK EXPIERIENCE:"]
-let array2= ["Advanced Programming in Java, Intro to Security, Software Engineering","Python, Java, C++, C, JavaScript, TypeScript","CS Tutor, Program Grader, Web App Creator/Designer"];
+let array2= ["  Advanced Programming in Java,  Intro to Security,  Software Engineering","  Python, Java, C++, C, JavaScript, TypeScript","  CS Tutor, Program Grader, Web App Creator/Designer"];
 
     for (var i = 0; i < 3; i++) {
         let row = document.createElement('div');
@@ -46,7 +47,8 @@ let array2= ["Advanced Programming in Java, Intro to Security, Software Engineer
             let box = document.createElement('div');
             box.className = "box";
             box.textContent = array[i] + array2[i];
-            box.style.background = 'rgb(235, 171, 11)';            
+            box.style.background = 'rgb(3, 19, 53)';  
+            box.style.color = 'white';          
             row.appendChild(box);             
         document.querySelector('#gridResume').appendChild(row);
         if(i ===2){

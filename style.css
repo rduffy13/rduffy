@@ -4,14 +4,13 @@ main{
 }
 
 .name {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 50px;
   font-weight: bold;
-  border: ridge white;
   border-width: thick;
   background: rgb(16, 156, 199);
-  padding-top: 20px;
+  padding-top: 30px;
   height: 100px;
   font-family:fantasy;
   width : 600px;
@@ -19,7 +18,7 @@ main{
 }
 
 .aboutMe {
-  color : black;
+  color : white;
   text-align: left;
   padding-top: 15px;
   font-size: 45px;
@@ -28,7 +27,7 @@ main{
   padding-left: 15px;
 }
 .Prev {
-  color: black;
+  color: white;
   text-align: left;
   padding-top: 15px;
   font-size: 45px;
@@ -38,7 +37,7 @@ main{
 }
 
 .Res{
-  color: black;
+  color: white;
   text-align: left;
   padding-top: 25px;
   padding-bottom: 15px;
@@ -49,7 +48,7 @@ main{
   background:rgb(16, 156, 199);
 }
 .Form{
-  color: black;
+  color: white;
   text-align: left;
   padding-top: 25px;
   font-size: 45px;
@@ -113,9 +112,18 @@ main{
   border: white 3px solid;
   width : 600px;
   margin: 0 auto;
-  background: rgb(235, 171, 11);
+  background: rgb(3, 19, 53);
 }
 
 .buttons{
   padding-bottom: 15px;
+}
+.Email{
+  color :white;
+}
+.Name{
+  color :white;
+}
+.Note{
+  color :white;
 }
