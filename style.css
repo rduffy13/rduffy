@@ -10,17 +10,67 @@ main{
   font-weight: bold;
   border-width: thick;
   background: rgb(16, 156, 199);
-  padding-top: 30px;
+  padding-top: 100px;
   height: 100px;
   font-family:fantasy;
   width : 600px;
   margin: 0 auto;
 }
-
+.nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(3, 19, 53);
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  place-items: center;
+  position: fixed;
+  top:0;
+  border-bottom: white thin solid ;
+}
+.btn1 {
+  color: white;
+  height: 40px;
+  width: 90px;
+  padding: 2px;
+  text-decoration: none;
+}
+.btn2 {
+  color: white;
+  height: 40px;
+  width: 90px;
+  padding: 2px;
+  text-decoration: none;
+}
+.btn2 {
+  color: white;
+  height: 40px;
+  width: 90px;
+  padding: 2px;
+  text-decoration: none;
+}
+.btn3 {
+  color: white;
+  height: 40px;
+  width: 155px;
+  padding: 2px;
+  text-decoration: none;
+}
+.btn4 {
+  color: white;
+  height: 40px;
+  width: 155px;
+  padding: 2px;
+  text-decoration: none;
+}
 .aboutMe {
   color : white;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 60px;
   font-size: 45px;
   font-family:cursive;
   font-weight: bold;
@@ -84,19 +134,18 @@ main{
 .f1{
   padding-top: 15px;
   padding-bottom:15px;
+  padding-right: 47px;
 }
-.f2{
-  padding-top: 15px;
-  padding-bottom:15px;
-}
+
 .f3{
   padding-top: 15px;
   padding-bottom:15px;
 }
 .message{
-  width : 450px;
-  height : 300px;
+  width : 650px;
+  height : 100px;
   border:black 1.5px solid ;
+  padding-bottom: 10px;
 }
 .M1{
   width : 300px;
@@ -110,9 +159,11 @@ main{
 }
 .FDiv{
   border: white 3px solid;
-  width : 600px;
+  width : 900px;
+  height: 300px;
   margin: 0 auto;
   background: rgb(3, 19, 53);
+  padding-top: 5px;
 }
 
 .buttons{

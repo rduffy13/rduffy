@@ -52,7 +52,7 @@ let array2= ["  Advanced Programming in Java,  Intro to Security,  Software Engi
             row.appendChild(box);             
         document.querySelector('#gridResume').appendChild(row);
         if(i ===2){
-            row.style.paddingBottom = '25px';
+            row.style.paddingBottom = '50px';
         }
     }
 cont.style.textAlign = 'left';
