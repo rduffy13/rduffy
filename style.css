@@ -179,6 +179,9 @@ main{
 }
 
 @media(max-width: 414px){
+  .Email{
+    padding-top: 5px;
+  }
   .name {
     color: white;
     text-align: center;
@@ -191,6 +194,30 @@ main{
     font-family:fantasy;
     width : 400px;
     margin: 0 auto;
+  }
+  .message{
+    width : 55%;
+    height : 55x;
+    border:black 1.5px solid ;
+    padding-bottom: 10px;
+  }
+  .M1{
+    width : 50%;
+    height : 15%;
+    border:black 1.5px solid ;
+  }
+  .M2{
+    width : 50%;
+    height : 15%;
+    border:black 1.5px solid ;
+  }
+  .FDiv{
+    border: white 3px solid;
+    width : 60%;
+    height: 40%;
+    margin: 0 auto;
+    background: rgb(3, 19, 53);
+    padding-top: 5px;
   }
 
 }
@@ -207,5 +234,32 @@ main{
     font-family:fantasy;
     width : 450px;
     margin: 0 auto;
+  }
+  .Email{
+    padding-top: 10px;
+  }
+  .message{
+    width : 70%;
+    height : 70x;
+    border:black 1.5px solid ;
+    padding-bottom: 10px;
+  }
+  .M1{
+    width : 45%;
+    height : 20%;
+    border:black 1.5px solid ;
+  }
+  .M2{
+    width : 45%;
+    height : 20%;
+    border:black 1.5px solid ;
+  }
+  .FDiv{
+    border: white 3px solid;
+    width : 60%;
+    height: 60%;
+    margin: 0 auto;
+    background: rgb(3, 19, 53);
+    padding-top: 5px;
   }
 }
