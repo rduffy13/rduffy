@@ -18,7 +18,7 @@ main{
 }
 .nav {
   width: 100%;
-  height: 70px;
+  height: 50px;
   background-color: rgb(3, 19, 53);
   color: white;
   text-align: center;
@@ -28,8 +28,8 @@ main{
   justify-content: space-around;
   place-items: center;
   position: fixed;
-  top:0;
-  border-bottom: white thin solid ;
+  bottom:0;
+  border-top: white thin solid ;
 }
 .btn1 {
   color: white;
@@ -170,6 +170,7 @@ main{
 }
 .Email{
   color :white;
+  padding-top: 15px;
 }
 .Name{
   color :white;
@@ -177,8 +178,62 @@ main{
 .Note{
   color :white;
 }
+.proj1{
+  text-align: left;
+  color:white;
+  background-color: rgb(3, 19, 53);
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: white 2px solid;
+}
+.prevW1{
+  width: 60%;
+  margin: 0 auto;
+ }
+ .security {
+  color:white;
+  font-weight: bold;
+  
+ }
+ .proj2{
+  text-align: left;
+  color:white;
+  background-color: rgb(3, 19, 53);
+  padding-left: 10px;
+  padding-right:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: white 2px solid;
+}
+.prevW2{
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 15px;
+ }
+ .abilities {
+  color:white;
+  font-weight: bold;
+  
+ }
 
 @media(max-width: 414px){
+  .nav {
+    width: 100%;
+    height: 70px;
+    font-size: .8em;
+    background-color: rgb(3, 19, 53);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    place-items: left;
+    position: fixed;
+    bottom:0;
+    border-top: white thin solid ;
+  }
   .Email{
     padding-top: 5px;
   }
@@ -222,6 +277,21 @@ main{
 
 }
 @media(max-width: 768px) and (min-width: 415px){
+  .nav {
+    width: 100%;
+    height: 70px;
+    font-size: .8em;
+    background-color: rgb(3, 19, 53);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    place-items: left;
+    position: fixed;
+    bottom:0;
+    border-top: white thin solid ;
+  }
   .name {
     color: white;
     text-align: center;

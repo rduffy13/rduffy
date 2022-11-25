@@ -33,10 +33,6 @@ div1.append(pic);
 div3.append(picdiv);
 div1.append(div3);
 app.append(div1);
-let app2 = document.querySelector('#frame2');
-let divPrev = document.createElement('div');
-divPrev.style.border = 'thick ridge red';
-app2.append(divPrev);
 let cont = document.querySelector('#gridResume');
 let array = ["NOTABLE CLASSES TAKEN:","LANGUAGE KNOWLEDGE:", "WORK EXPIERIENCE:"]
 let array2= ["  Advanced Programming in Java,  Intro to Security,  Software Engineering","  Python, Java, C++, C, JavaScript, TypeScript","  CS Tutor, Program Grader, Web App Creator/Designer"];
