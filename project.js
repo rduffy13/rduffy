@@ -5,7 +5,7 @@ let div3 = document.createElement('div');
 let pic = document.createElement('img');
 let picdiv = document.createElement('div');
 picdiv.textContent = `Hello! My name is Richard Duffy and I am a senior at PSU.  My current
-proffessionl expierence with Computer Science involves the following:
+proffessionl experience with Computer Science involves the following:
 Currently a CS tutor for PSU, have been a program grader for CS162 under the direction of Karla Fant
 and aslo currently in my senior capstone project working with a local company to create
 a working database application`;
@@ -34,7 +34,7 @@ div3.append(picdiv);
 div1.append(div3);
 app.append(div1);
 let cont = document.querySelector('#gridResume');
-let array = ["NOTABLE CLASSES TAKEN:","LANGUAGE KNOWLEDGE:", "WORK EXPIERIENCE:"]
+let array = ["NOTABLE CLASSES TAKEN:","LANGUAGE KNOWLEDGE:", "WORK EXPIERIENCE:"];
 let array2= ["  Advanced Programming in Java,  Intro to Security,  Software Engineering","  Python, Java, C++, C, JavaScript, TypeScript","  CS Tutor, Program Grader, Web App Creator/Designer"];
 
     for (var i = 0; i < 3; i++) {
